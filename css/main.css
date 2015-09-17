@@ -36,8 +36,8 @@ header {
     height: 100vh;
 
     background-size: cover;
-    background-position: top right;
-    background-image: url(../img/anna-misak-bg.jpg);
+    background-position: center center;
+    background-image: url(../img/small-bg.jpg);
 }
 
 .business-card {
@@ -67,6 +67,7 @@ li {
 
 h1, p {
     color: white;
+    font-weight: normal;;
 }
 
 .icons {
@@ -88,7 +89,7 @@ h1, p {
 
 @media only screen and (min-width: 38em) {
     header {
-        background-position: center center;
+        background-image: url(../img/anna-misak-bg.jpg);
     }
 
     .img-none {
@@ -115,6 +116,10 @@ h1, p {
         width: 35%;
         right: 25%;
     } 
+
+    .icons {
+        width: 50%;
+    }
 }
 
 @media only screen and (min-width: 80em) {
