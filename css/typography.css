@@ -2,7 +2,7 @@ html {
   font: normal 100%/1.5 "Raleway", sans-serif;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 45em) {
     
     html {
         font-size: 110%;
@@ -10,7 +10,7 @@ html {
     
 }
 
-@media only screen and (min-width: 85em) {
+@media only screen and (min-width: 60em) {
     
     html {
         font-size: 120%;
@@ -21,7 +21,7 @@ html {
 @media only screen and (min-width: 90em) {
     
     html {
-        font-size: 130%;
+        font-size: 135%;
     }
     
 }
@@ -36,7 +36,7 @@ html {
 @media only screen and (min-width: 150em) {
     
     html {
-        font-size: 200%;
+        font-size: 160%;
     }  
 }
 
@@ -61,6 +61,7 @@ h1, .exa {
   font-size: 3rem;
   line-height: 1.56648;
   font-family: "Great Vibes", cursive;
+  font-weight: normal;
 }
 
 h2, .peta {
