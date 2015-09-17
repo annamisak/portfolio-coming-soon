@@ -10,6 +10,10 @@ html {
     padding: 0;
     
     background-color: #bebebe;
+    background-size: cover;
+    background-position: bottom center;
+    background-image: url(../img/small-bg.jpg);
+
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -44,21 +48,18 @@ img {
     width: 100%;
 }
 
-header {
-    overflow: hidden;
+header {   
     height: 100vh;
-
-    background-size: cover;
-    background-position: center center;
-    background-image: url(../img/small-bg.jpg);
 }
 
 .business-card {
-    margin-top: -5px;
+    margin-top: -15px;
     position: relative;
     padding-top: 1em;
     width: 100%;
-    height: 80vh;
+    height: 70vh;
+
+    z-index: 1;
 
     background-image: url(../img/bg-ribbon.svg);
     background-repeat: no-repeat;
@@ -70,7 +71,6 @@ ul {
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
-    overflow: hidden;
 }
 
 li {
@@ -112,6 +112,8 @@ h1, p {
 
 @media only screen and (min-width: 38em) {
     header {
+        background-size: cover;
+        background-position: center center;
         background-image: url(../img/anna-misak-bg.jpg);
     }
 
@@ -131,6 +133,7 @@ h1, p {
     .business-card {
         width: 45%;
         right: 20%;
+        height: 80vh;
     } 
 }
 
