@@ -58,9 +58,9 @@ fieldset, pre, table {
 }
 
 h1, .exa {
-  font-size: 1.8020rem;
+  font-size: 3rem;
   line-height: 1.56648;
-  font-family: "Amatic SC", serif;
+  font-family: "Great Vibes", cursive;
 }
 
 h2, .peta {
@@ -146,6 +146,10 @@ sub {
   margin-bottom: 0;
 }
 
+.push-top {
+  margin-top: 0;
+}
+
 .push-left {
     padding-left: 0;
 }
@@ -192,6 +196,14 @@ sub {
 
 .pad-bottom-quarter, .pad-b-1-4 {
   padding-bottom: 0.3750rem;
+}
+
+.pad-right {
+  padding-right: 0.3750rem;
+}
+
+.pad-left {
+  padding-left: 0.3750rem;
 }
 
 .island {
