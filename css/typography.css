@@ -21,7 +21,7 @@ html {
 @media only screen and (min-width: 90em) {
     
     html {
-        font-size: 135%;
+        font-size: 130%;
     }
     
 }
@@ -29,14 +29,14 @@ html {
 @media only screen and (min-width: 120em) {
     
     html {
-        font-size: 150%;
+        font-size: 140%;
     }  
 }
 
 @media only screen and (min-width: 150em) {
     
     html {
-        font-size: 160%;
+        font-size: 150%;
     }  
 }
 
