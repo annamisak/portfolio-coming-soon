@@ -3,41 +3,33 @@ html {
 }
 
 @media only screen and (min-width: 45em) {
-    
     html {
         font-size: 110%;
     }
-    
 }
 
 @media only screen and (min-width: 60em) {
-    
     html {
         font-size: 120%;
     }
-    
 }
 
 @media only screen and (min-width: 90em) {
-    
     html {
         font-size: 130%;
     }
-    
 }
 
 @media only screen and (min-width: 120em) {
-    
     html {
         font-size: 140%;
-    }  
+    }
 }
 
 @media only screen and (min-width: 150em) {
-    
     html {
         font-size: 150%;
-    }  
+    }
 }
 
 h2, h3, h4, h5, h6,
@@ -181,6 +173,10 @@ sub {
 
 .pad-bottom-double, .pad-b-2 {
   padding-bottom: 3.0000rem;
+}
+
+.pad-bottom-triple, .pad-b-3 {
+  padding-bottom: 4.5rem;
 }
 
 .pad-top-half, .pad-t-1-2 {
